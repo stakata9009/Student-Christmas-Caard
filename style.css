@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Rubik+Mono+One&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+
+.wrapper {
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url('bg.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.school {
+    text-align: center;
+    font-family: Arial;
+    font-size: 1.6vw;
+    padding-top: 2%;
+}
+
+h1 {
+    text-align: center;
+    font-family: "Rubik Mono One";
+    font-size: 3vw;
+    color: red;
+    text-shadow:
+       3px 3px 0 #000,
+     -1px -1px 0 #000,  
+      1px -1px 0 #000,
+      -1px 1px 0 #000,
+       1px 1px 0 #000;
+}
+
+.city {
+    text-align: center;
+    font-family: Arial;
+    font-size: 1.5vw;
+    margin-bottom: 8vh;
+}
+
+.snowflake {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background: linear-gradient(white, white); /* Workaround for Chromium's selective color inversion */
+    border-radius: 50%;
+    filter: drop-shadow(0 0 10px white);
+}
+
+.holder {
+    width: 80vw;
+    max-height: fit-content(20em);
+    background-color: rgba(0, 0, 0, 0.3);
+    margin: auto;
+}
+
+.one {
+    color: white;
+    text-align: center;
+    font-family: Lobster;
+    font-size: 5.2vw;
+    text-shadow:
+    3px 3px 0 #000,
+  -1px -1px 0 #000,  
+   1px -1px 0 #000,
+   -1px 1px 0 #000,
+    1px 1px 0 #000;
+    padding-bottom: 1vh;
+}
+
+.two {
+    color: red;
+    padding-bottom: 3vh;
+    text-align: center;
+    font-family: Lobster;
+    font-size: 6.2vw;
+    text-shadow:
+    3px 3px 0 #000,
+  -1px -1px 0 #000,  
+   1px -1px 0 #000,
+   -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+.boxes {
+    width: 70vw;
+    height: fit-content(20em);
+    padding-bottom: 2vh;
+    margin: auto;
+}
+
+.box {
+    float: left;
+    width: 15vw;
+    background-color: red;
+    box-shadow: 
+    3px 3px 0 #000,
+  -1px -1px 0 #000,  
+   1px -1px 0 #000,
+   -1px 1px 0 #000,
+    1px 1px 0 #000;;
+    margin: 0 0 2vh 2vw;
+    text-align: center;
+}
+
+.info {
+    float: left;
+    width: 15vw;
+
+    background-color: red;
+    color: white;
+    background-color: green;
+    font-family: "Arial Black";
+    font-size: 2.4vw;
+    box-shadow: 
+    3px 3px 0 #000,
+  -1px -1px 0 #000,  
+   1px -1px 0 #000,
+   -1px 1px 0 #000,
+    1px 1px 0 #000;;
+    margin: 0 0 0 2vw;
+    text-align: center;
+}
+
+.xmas {
+    color: white;
+    font-family: "Arial Black";
+    font-size: 6.2vw;
+    text-shadow:
+    3px 3px 0 #000,
+  -1px -1px 0 #000,  
+   1px -1px 0 #000,
+   -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
